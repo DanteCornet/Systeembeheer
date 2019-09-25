@@ -49,3 +49,6 @@ postfix:!::
 postdrop:!::
 ssh:!::
 mlocate:!::
+uuidd:!::
+test:!::
+check:!::
