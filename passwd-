@@ -24,5 +24,5 @@ postfix:x:104:109::/var/spool/postfix:/usr/sbin/nologin
 _apt:x:105:65534::/nonexistent:/usr/sbin/nologin
 sshd:x:106:65534::/run/sshd:/usr/sbin/nologin
 uuidd:x:107:113::/run/uuidd:/usr/sbin/nologin
-test:x:1000:1000:test,,,:/home/test:/bin/bash
 check:x:1001:1001:,,,:/home/check:/bin/bash
+ntp:x:108:115::/nonexistent:/usr/sbin/nologin
