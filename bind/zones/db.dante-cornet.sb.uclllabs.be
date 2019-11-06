@@ -21,5 +21,6 @@ dante-cornet.sb.uclllabs.be.	IN	NS	ns.dante-cornet.sb.uclllabs.be.
 ns.dante-cornet.sb.uclllabs.be.	IN	A	193.191.177.140
 
 
-
+;A records
 @	IN	A	193.191.177.140
+www	IN	A	193.191.177.140
