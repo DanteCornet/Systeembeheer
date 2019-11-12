@@ -27,4 +27,10 @@ www	IN	A	193.191.177.140
 test	IN	A	193.191.177.254
 www1	IN	A	193.191.177.140
 www2	IN	A	193.191.177.140
+secure	IN	A	193.191.177.140
+supersecure	IN	A	193.191.177.140
 
+
+;CAA records
+secure.dante-cornet.sb.uclllabs.be.	CAA	0 issue "letsencrypt.org"
+supersecure.dante-cornet.sb.uclllabs.be.	CAA	0 issue "letsencrypt.org"
