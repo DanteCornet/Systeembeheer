@@ -5,7 +5,7 @@
 ;
 $TTL	86400
 @	IN	SOA	ns.dante-cornet.sb.uclllabs.be. root.dante-cornet.sb.uclllabs.be. (
-			2019102403	; Serial
+			2019111201	; Serial
 			  300		; Refresh
 			  300		; Retry
 			  300		; Expire
