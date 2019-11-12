@@ -5,7 +5,7 @@
 ;
 $TTL	86400
 @	IN	SOA	ns.dante-cornet.sb.uclllabs.be. root.dante-cornet.sb.uclllabs.be. (
-			2019111201	; Serial
+			2019111205	; Serial
 			  300		; Refresh
 			  300		; Retry
 			  300		; Expire
@@ -32,5 +32,5 @@ supersecure	IN	A	193.191.177.140
 
 
 ;CAA records
-secure.dante-cornet.sb.uclllabs.be.	CAA	0 issue "letsencrypt.org"
-supersecure.dante-cornet.sb.uclllabs.be.	CAA	0 issue "letsencrypt.org"
+dante-cornet.sb.uclllabs.be.	IN	CAA	0 issue "letsencrypt.org"
+dante-cornet.sb.uclllabs.be.	IN	CAA	0 iodef "mailto:dante-cornet@sb.uclllabs.be"
