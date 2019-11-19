@@ -68,7 +68,7 @@ driver = mysql
 #
 # Examples:
 #   connect = host=192.168.1.1 dbname=users
-   connect = host=127.0.0.1 dbname=servermail user=usermail password=mailpass
+connect = host=127.0.0.1 dbname=servermail user=usermail password=mailpass
 #   connect = /etc/dovecot/authdb.sqlite
 #
 #connect =
@@ -104,7 +104,7 @@ default_pass_scheme = SHA512-CRYPT
 # difficult to have eg. usernames containing '%' characters.
 #
 # Example:
-   password_query = SELECT email as user, password FROM virtual_users WHERE email='%u';
+password_query = SELECT email as user, password FROM virtual_users WHERE email='%u';
 #     FROM users WHERE userid = '%u' AND active = 'Y'
 #
 #password_query = \
