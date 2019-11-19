@@ -12,32 +12,33 @@ append_dot_mydomain = no
 alias_maps = hash:/etc/aliases
 alias_database = hash:/etc/aliases
 #mydestination = ns.localdomain, localhost.localdomain, localhost
-mydestination = localhost
-myhostname = hostname.dante-cornet.sb.uclllabs.be
+mydestination = localhost, localhost.dante-cornet.sb.uclllabs.be, $myhostname
+myhostname = mx.dante-cornet.sb.uclllabs.be
 relayhost = 
-mynetworks = 127.0.0.0/8
+mynetworks = 127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128 193.191.177.0/24
 inet_interfaces = all
 recipient_delimiter = +
 
 virtual_transport = lmtp:unix:private/dovecot-lmtp
 virtual_mailbox_domains = mysql:/etc/postfix/mysql-virtual-mailbox-domains.cf
 virtual_mailbox_maps = mysql:/etc/postfix/mysql-virtual-mailbox-maps.cf
-virtual_alias_maps = mysql:/etc/postfix/mysql-virtual-alias-maps.cf
+#virtual_alias_maps = mysql:/etc/postfix/mysql-virtual-alias-maps.cf
 
 myorigin = /etc/mailname
 mailbox_size_limit = 0
 inet_protocols = all
 
 #TLS parameters
-smtpd_tls_cert_file=/etc/ssl/certs/dovecot.pem
-smtpd_tls_key_file=/etc/ssl/private/dovecot.pem
+smtpd_tls_cert_file=/etc/letsencrypt/live/secure.dante-cornet.sb.uclllabs.be/fullchain.pem
+smtpd_tls_key_file=/etc/letsencrypt/live/secure.dante-cornet.sb.uclllabs.be/privkey.pem
 smtpd_use_tls=yes
 smtpd_tls_auth_only = yes
 
 smtpd_sasl_type = dovecot
 smtpd_sasl_path = private/auth
 smtpd_sasl_auth_enable = yes
+
 smtpd_recipient_restrictions =
-permit_sasl_authenticated = 
-permit_mynetworks = 
-reject_unauth_destination =
+	permit_sasl_authenticated, 
+	permit_mynetworks, 
+	reject_unauth_destination
