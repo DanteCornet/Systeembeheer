@@ -1,0 +1,17 @@
+[Match]
+Name = ipv6
+
+[Network]
+Description = Interface eth0 autoconfigured by PVE
+Address = 193.191.177.140/25
+Gateway = 193.191.177.254
+DHCP = none
+IPv6AcceptRA = false
+
+[Network]
+Address = 2001:6a8:2880:a077::8c/64
+Gateway = 2001:6a8:2880:a077::1
+
+[Route]
+Destination = 2001:6a8:2880:a077::1
+ 
