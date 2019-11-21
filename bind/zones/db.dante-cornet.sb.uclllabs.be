@@ -5,7 +5,7 @@
 ;
 $TTL	300
 @	IN	SOA	ns.dante-cornet.sb.uclllabs.be. root.dante-cornet.sb.uclllabs.be. (
-			2019111905	; Serial
+			2019111906	; Serial
 			  300		; Refresh
 			  300		; Retry
 			  300		; Expire
@@ -16,6 +16,7 @@ $TTL	300
 dante-cornet.sb.uclllabs.be.	IN	NS	ns1.uclllabs.be.
 dante-cornet.sb.uclllabs.be.	IN	NS	ns2.uclllabs.be.
 dante-cornet.sb.uclllabs.be.	IN	NS	ns.dante-cornet.sb.uclllabs.be.	
+dante-cornet.sb.uclllabs.be.	IN	NS	ns.sam-arnalsteen.sb.uclllabs.be.
 
 ; A records for name servers
 ns.dante-cornet.sb.uclllabs.be.	IN	A	193.191.177.140
