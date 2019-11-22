@@ -1,0 +1,26 @@
+#!/bin/bash
+
+
+start () {
+	iptables-restore < /etc/iptables/rulesV4
+	ip6tables-restore < /etc/iptables/rulesV6
+}
+
+stop () {
+	iptables-save > /etc/iptables/rulesV4
+	ip6tables-save > /etc/iptables/rulesV6
+}
+
+case "$1" in
+    start)
+        start
+        ;;
+    stop)
+        stop
+        ;;
+    restart)
+        stop
+        start
+        ;;
+esac
+exit 0
