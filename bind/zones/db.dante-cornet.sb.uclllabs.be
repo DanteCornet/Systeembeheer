@@ -5,7 +5,7 @@
 ;
 $TTL	300
 @	IN	SOA	ns.dante-cornet.sb.uclllabs.be. root.dante-cornet.sb.uclllabs.be. (
-			2019111906	; Serial
+			2019111907	; Serial
 			  300		; Refresh
 			  300		; Retry
 			  300		; Expire
@@ -37,7 +37,7 @@ www2	IN	A	193.191.177.140
 secure	IN	A	193.191.177.140
 supersecure	IN	A	193.191.177.140
 mx	IN	A	193.191.177.140
-
+flandrien	IN	A	193.191.177.140
 
 ;CAA records
 dante-cornet.sb.uclllabs.be.	IN	CAA	0 issue "letsencrypt.org"
