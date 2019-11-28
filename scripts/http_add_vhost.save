@@ -1,0 +1,7 @@
+#!/bin/bash
+
+vhost=$(echo $1| cut -d'.' -f 1)
+echo $vhost
+
+sitesEnable='/etc/apache2/sites-enabled/'
+sitesAvailable='/etc/apache2/sites-available/'

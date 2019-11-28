@@ -1,0 +1,24 @@
+#!/bin/bash
+[[ -z "$1" ]] && { echo "Parameter 1 is empty" ; exit 1; }
+vhost=$(echo $1| cut -d'.' -f 1)
+
+sitesEnable='/etc/apache2/sites-enabled/'
+sitesAvailable='/etc/apache2/sites-available/'
+sitesAvailabledomain=$sitesAvailable$vhost.conf
+documentRoot='/var/www/html/'
+domain=$(echo $1| cut -d'.' -f 2-5)
+
+### create virtual host rules file
+echo "
+    <VirtualHost *:80>
+      ServerAdmin root@$domain
+      ServerName $1
+      DocumentRoot $documentRoot$vhost
+    </VirtualHost>" > $sitesAvailabledomain
+echo -e $"\nNew Virtual Host Created\n"
+
+mkdir -p $documentRoot$vhost
+echo "welcome $vhost" > $documentRoot$vhost/index.html
+
+a2ensite $vhost
+systemctl reload apache2
