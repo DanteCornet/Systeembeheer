@@ -1,0 +1,15 @@
+[Unit]
+Description=firewall.service
+Restart=Always
+
+[Service]
+Type=simple
+Type=oneshot
+Type=forking
+RemainAfterExit = yes
+ExecStart=/etc/init.d/firewall start
+ExecStop=/etc/init.d/Firewall stop
+ExecStop=/etc/init.d/Firewall restart
+
+[Install]
+WantedBy=multi-user.targer
