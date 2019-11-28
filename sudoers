@@ -27,5 +27,4 @@ root	ALL=(ALL:ALL) ALL
 
 #includedir /etc/sudoers.d
 check ALL=(ALL) NOPASSWD: /usr/lib/nagios/plugins/check_apt, /usr/sbin/arp
-
-
+check ALL=(ALL) NOPASSWD: /usr/locale/bin/http_add_vhost, /etc/scripts/http_add_vhost
