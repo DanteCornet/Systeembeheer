@@ -5,7 +5,7 @@
 ;
 $TTL	300
 @	IN	SOA	ns.dante-cornet.sb.uclllabs.be. root.dante-cornet.sb.uclllabs.be. (
-			2019111907	; Serial
+			2019120907	; Serial
 			  300		; Refresh
 			  300		; Retry
 			  300		; Expire
@@ -16,10 +16,10 @@ $TTL	300
 dante-cornet.sb.uclllabs.be.	IN	NS	ns1.uclllabs.be.
 dante-cornet.sb.uclllabs.be.	IN	NS	ns2.uclllabs.be.
 dante-cornet.sb.uclllabs.be.	IN	NS	ns.dante-cornet.sb.uclllabs.be.	
-dante-cornet.sb.uclllabs.be.	IN	NS	ns.sam-arnalsteen.sb.uclllabs.be.
 
 ; A records for name servers
 ns.dante-cornet.sb.uclllabs.be.	IN	A	193.191.177.140
+
 
 ;AAAA records for name servers
 ns	IN	AAAA	2001:6a8:2880:a077::8c
@@ -37,11 +37,13 @@ www2	IN	A	193.191.177.140
 secure	IN	A	193.191.177.140
 supersecure	IN	A	193.191.177.140
 mx	IN	A	193.191.177.140
-flandrien	IN	A	193.191.177.140
-
+elk	IN	A	193.191.177.87
+lb	IN	A	193.191.177.88
 ;CAA records
 dante-cornet.sb.uclllabs.be.	IN	CAA	0 issue "letsencrypt.org"
 dante-cornet.sb.uclllabs.be.	IN	CAA	0 iodef "mailto:dante-cornet@sb.uclllabs.be"
 
 ;MX records
 @	IN	MX	10 mx
+$INCLUDE Kdante-cornet.sb.uclllabs.be.+007+51246.key
+$INCLUDE Kdante-cornet.sb.uclllabs.be.+007+62153.key
