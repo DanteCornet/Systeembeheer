@@ -1,0 +1,504 @@
+; File written on Tue Dec 10 13:50:53 2019
+; dnssec_signzone version 9.11.3-1ubuntu1.11-Ubuntu
+dante-cornet.sb.uclllabs.be. 300 IN SOA	ns.dante-cornet.sb.uclllabs.be. root.dante-cornet.sb.uclllabs.be. (
+					2019120908 ; serial
+					300        ; refresh (5 minutes)
+					300        ; retry (5 minutes)
+					300        ; expire (5 minutes)
+					300        ; minimum (5 minutes)
+					)
+			300	RRSIG	SOA 7 4 300 (
+					20200109115053 20191210115053 62153 dante-cornet.sb.uclllabs.be.
+					kXOAZrpSeoQ4LLj6NU/ONfm8PECfJSFBxT0/
+					MlyjQMSST6bESSPMhP7kFbs7iZfyIMen9jTd
+					oKoV67fYVcnvv+VGrGmmIppnABc2KtBtxXk5
+					V11tBnKWzUx0/Sy6Lc2W99okfH5KyYRvGcFm
+					8tmW0jeA9tR8nho3OeT3EVT4vzwjcGjndbxN
+					towLaNeQpOF8Ky4212CpniQxyui79+4wtGyu
+					8Wwa21IGBPJiqWeRbWy4y50R6BEd25p1d973
+					co9TO3RraYC43MJ6o8Ym1Iwi6W5BcbPIXoCS
+					t8Oa2sUnkSvsAzsV/eRErE8Y0aT6HBvjmL9C
+					96aaELs5p8vwjALlpA== )
+			300	NS	ns.dante-cornet.sb.uclllabs.be.
+			300	NS	ns1.uclllabs.be.
+			300	NS	ns2.uclllabs.be.
+			300	RRSIG	NS 7 4 300 (
+					20200109115053 20191210115053 62153 dante-cornet.sb.uclllabs.be.
+					YQ4lJ2K8h1F6ACPBvbR2bag0N42wyMuM/pgP
+					AvXyF0R3UxliDJOe/GdhdScBytsWxgiHCe0z
+					woG5H+BQN3vKjgCBUQosimxc95fGA87mWMlI
+					zvrih9fMZU0diYcpuCwaF6MegOLYUlRFzENf
+					JZE/pCgJoGNeImFDXFemxmZrp2xSKBWSkUs0
+					93j0YM28WsBe6G+6tFf1MAzVJ/pDLMvjsGf/
+					rHWmRgAifd7ATpkRRRS/+j+NOsOAcprig7yt
+					LttCMB2PsAY/hJ5eit8P9W2gr7kWDFuM5hzg
+					xeMDG/PfVurpkl0XCci+SuMipJRTzEkJWxlx
+					Amdzk3rjk/o8np+oAQ== )
+			300	A	193.191.177.140
+			300	RRSIG	A 7 4 300 (
+					20200109115053 20191210115053 62153 dante-cornet.sb.uclllabs.be.
+					h7AgPDG4uZAEbuwdO/ktFqq3j8gS1yWoprc4
+					QdAsMQbn4M3iQNjxbY3LCaJ7zvHXVR62ZRn5
+					tKSW2hSQuUtzSpLJFBHi2KidKuPiQkDNMu7S
+					NKg/n8gYMHS1MtHmWtK/l/qf5LIQfUr01gdQ
+					ix6TOt7nXyXwbTuUKJ+pVWbjBlGLtFXiMD0+
+					vUHubI/UAVEEr0JtPWpCsuGM6c2UbzOq3HtU
+					VaIPnvRrB9lA46W6EorPLzwv5HZ+xMt1+I/m
+					4T7n7yK1qFoE2e9KHOJdXemC1g5sRWHcKVup
+					9mfQsk2LxQv0I3lbkVyO5KeFUD9kmovFHyMO
+					ldMAmdSf5KwiOvovyw== )
+			300	MX	10 mx.dante-cornet.sb.uclllabs.be.
+			300	RRSIG	MX 7 4 300 (
+					20200109115053 20191210115053 62153 dante-cornet.sb.uclllabs.be.
+					ex3cvQ2Yiv46EUb7UPLZZcZ3pAWqSUgE0Zvz
+					/t7QoL3gUdHnqHtAAzh9XrvBal+AzPTrDZVT
+					v5fUQBQC2/vMPuvYrq6WPBbfzukPXUb49GVG
+					X2n0HQ6l2ftjyK05JvI3oRbh58ZpLFKY7EDV
+					hOHUuy+Tlq6cc26m85Yk2hlzi/PRJ3HxgxKl
+					SqaOOA9U22rbjQYf77vHb34S1EFWMZ3d+dvJ
+					cDrjVz3qVelNDXnD/3a+uuKZoh2FCk6etqD5
+					p00vvUgXGt1LOfynA8ekkQn9+9TNffu26lq9
+					6dE38wWdZoLWk+LqTTFtk/yVvJdlWU+gDd23
+					Lw3gH0qpTqCitR+i7A== )
+			300	AAAA	2001:6a8:2880:a077::8c
+			300	RRSIG	AAAA 7 4 300 (
+					20200109115053 20191210115053 62153 dante-cornet.sb.uclllabs.be.
+					GWV954H3gBPWrEiGYDN+xMJT6NJGGVpYwXCI
+					bf+Wm8mwomR9nekNKKYRjIwwiFJopuXy1WTx
+					ZQGYrskolPn/PREJBQAgyVXbH2vtdWZZyZoi
+					AERQ34cyUQtbOC1cae+b+E6wQg8uT5WlcEAr
+					veIPZzbMCwNbSuagy3eeMwdpUlyC01uH3JTP
+					N+SlIXL/o1xmxIHCzNT7oDtyI1ice6XTrhPS
+					0FsA8Q6IwUnOq0whM/TfQ0VTRglM51UTwI2M
+					TvzZMmKOCf6K/U9GN8HHdLKk9SyCAS4pbdV8
+					fHR/edAFInTgih5RU+lafDz+N5NYdzB1uIY+
+					cASDkqz8JFwx6Jlpvw== )
+			300	DNSKEY	256 3 7 (
+					AwEAAddMsv2ZAPRarJbkgLGgpBsMBLM0c3HZ
+					ddN8l5OMp4sRPRzAieQTSvmZS+i6M1T7suIA
+					+X7UWwF+1YrOOTncgH+BW2vPY3dhNlGVQFN7
+					wOX0Zw+07n1p67iaXMyBeZGA37qGNGJ5KiFJ
+					jdU+EC1DJaMLtWo4DftmL80LdYAGykZv1V2X
+					ApUawzQRd/j8OqBW7Jda44lbWHDriDDcgnoQ
+					PdZ/8xdm/HOPEpzUVzJQWTYas3iBQv23XYwK
+					KB22jRBht84KPja/xvI/Lw93rYwbSvVdn4fx
+					H92qa6GJd73lqtJrpbwQqSVTArcSJFOW6zoT
+					ZkvPSwEWOoxj2HfbXUHdi4k=
+					) ; ZSK; alg = NSEC3RSASHA1 ; key id = 62153
+			300	DNSKEY	257 3 7 (
+					AwEAAa0HbeoCNraax6lUzhUqVVLGyJMZ0OYn
+					0ytRS+WZRG976ACk5J5mDRee1N+6UtxrsF1q
+					7VyAn8ftKFc++8MWDKXnFvMHsJpLzs5Z/wk/
+					BRXTUVlIqvkwKlg4KrPBzkT3f+3uqkFE7F7m
+					ftKakJ+VmQppDEVYuONZfzUUFjG+7oBlfrRn
+					1OTXFfqSfsoe2Xl1fi8Iqs/NEEgXN2aWQal6
+					ihfEzVdUftE8G1AfS3fbIIUTIkE74pqLC1Im
+					y+c0Rl7rLfwG0f9wYJyhUR9HW8U6pw9xSlqc
+					X38gIQDIlbYyUtqgHcC3rR2xjJmKS0ERofxA
+					u8pMwprpa+UW5vJINZ8Pmc42uYq2vTa17JZA
+					hQRRXKgUoVUqIwnY6FCyAFaKNuu4O2XCIvqh
+					GpTM09LprE0Y0W1l86e4TPesn0aC/bXSaq20
+					aNs9kWUhnFcsUhzvmpC0tUXdLpDohpv9k4/7
+					o4VI2nPL8JYQAoCMKHtlZDnpBgeZYZm0DC8X
+					6U+Kf87qGRHUslv1/reSDvVyp0iWwHROuMJP
+					3Q+LUwsHuxYGjloEf8iNh5EmLWHgtWzvUCgm
+					NSs0gtXSEW5wnclA+Q11WVqpC6A73AA4kQAp
+					gmusGdb1QygTgwpSMws74jg6CwkQAOf5tGG0
+					iwP4gX1BL5/TPo52rG6+nmDvdT7W5yXLEH7E
+					iKYf
+					) ; KSK; alg = NSEC3RSASHA1 ; key id = 51246
+			300	RRSIG	DNSKEY 7 4 300 (
+					20200109115053 20191210115053 51246 dante-cornet.sb.uclllabs.be.
+					Tr2HdYJSCnJqMIVcqRuvUBWIiHDYjIFU75vT
+					ZcUa1ix+Jx2CTycQRoZIGQnz3aZM0hS+9Tf3
+					fPgfXVU0VgMw4q1zVXEk7RuX7hhHodS4Qib+
+					edms8/7TEeIy4ERmOIS3HenkMkjvzqbudUBU
+					brDVNG7fRJscpSlZgK41DW1jy+QfnTxk7CsG
+					89xFl6oJQo7Z+WiIn2IVQHfaUPaTpD8NXIGa
+					tDuWRVQSqnPRWA7qqiIW9QYSe0Eaq0TGTKRq
+					I0H0vetW4CoACqM1aHEbhZYeRJi48oJsgY74
+					NLiESXtZ1plOVzDV0GS3W+L+7cMCeKX+pVsC
+					SKS8zbzGFQ3Hcq2DgDgi6+DaqU+PHczWBEck
+					QRGtwzVhfpXZpnP2TZuVMXxyEYAKNm9aujb0
+					uluZvnFJCKWyglMpfkqAF2sgFJFXCBd8nn5U
+					6AYvFrzn/LcPC3kuzZdH48cW4BaRasXeVhEX
+					yVb/FnB+6FELpP+xfnkXXU5a6zGHdq9j0897
+					na4KWovrr7IHEiDIH5KF7nNBXZ33RoCzXDB8
+					e5OHyDpLssmV7v9ZX8wOV+QVt8i1f8txCHN3
+					zLbUsOYMp6SZe/pv75vOGIn5+b5dMuqABN2k
+					zDMzjgHYsFnhTHW/r0+BTaB5Ki9EvpP3RTfh
+					rMp2C45KBMRUaZscE41qfZ7cOt1xaadRzno= )
+			300	RRSIG	DNSKEY 7 4 300 (
+					20200109115053 20191210115053 62153 dante-cornet.sb.uclllabs.be.
+					RWq7nRwtm6P979fPy3ysvwbYdw5TK1DCFfm6
+					T0j0bBy7Y9ja0WP98UXD0mN7yqYVnxUXaHlF
+					IFItKEVAUiK5XzQZ4dwwmetPIbh8zD7pIpfn
+					1Qrqe5LiDPkELMD/DUMqHlU7SC3XlHGKH5n1
+					Se1DPfcrcPQzAttZ59mdW0tqG95v4iRJlC75
+					tE+38SmSdqediC//1PfosABFtQuKSLElHku6
+					2dutTL95EaPEDYAtEoZtKlkBstVce887WW9v
+					3d4N7+Ix5bmdGgJt57yVctx4c7ooNQYPPQ7O
+					jt4M12R2oZ8OuU0AfB7rmrOWjYeJ9nbUHrej
+					f7OFP8H/9jBw6sZx5g== )
+			0	NSEC3PARAM 1 0 10 04FCF758345A76E6
+			0	RRSIG	NSEC3PARAM 7 4 0 (
+					20200109115053 20191210115053 62153 dante-cornet.sb.uclllabs.be.
+					y8hmqx6rrXsbnee8qA5MI9MJmLPKync62e5q
+					TtcygQjsAtFV0FPO9tDK1ZP88TF/i0niqKkN
+					6L524tTE9QKKrqBBmtnIWwNBUj4vyIBZ7DGQ
+					hjNcZ3vYW3NleLl7WVdvyZHwg9O8/p4OF7lS
+					+UOkA550AhjcxOtKLbzqdPTXthIB6V5aOhaL
+					HhYkwn/9ayHZoiSffvjJxXnYuNRQmr5Zi/Jf
+					mIVebLv9hNlCnHw7/kpcLx+hnVP+r25CKf/z
+					BeSymiIIPGKzauu5BIZnuyfz/xlEo0D90cjn
+					wiBRvnrkoRwbqbXbwMc4l4Gt9bBqKysLeNNB
+					pHwkEDh6tcJOCTE8cw== )
+			300	CAA	0 iodef "mailto:dante-cornet@sb.uclllabs.be"
+			300	CAA	0 issue "letsencrypt.org"
+			300	RRSIG	CAA 7 4 300 (
+					20200109115053 20191210115053 62153 dante-cornet.sb.uclllabs.be.
+					Zo4aT1VylzOtd+JUykTuXDZiRPaEQylrH7mC
+					vZILtKYi/l2j6zGUMcHbXU54mr/fbMD3BlHs
+					7BEhkfGmiuHn1NBTdyCTaqYtcjV+l08Srad/
+					6yWEvxYSjqsXaY/s7Ve1AZSuN7i4AaBflE0w
+					mDp1tvSbZ78XmsBpiecTNMTFPilZ5aNy57CY
+					tmmLyJBf1ze8yrfjjWarYe7a8iLw6K6AoL6T
+					F+vh+h+OxN7va0HDgbfQ2UTG1d4X0TL99Dvb
+					Y0H+jDqD/TifeOlZe+mm2lBGJYylqJwbmku1
+					LuVtiNL0pD9YmpVQfy0gS+lI28e3xrh594Zp
+					PkZNhnimHtCPaE0wDw== )
+elk.dante-cornet.sb.uclllabs.be. 300 IN	A 193.191.177.87
+			300	RRSIG	A 7 5 300 (
+					20200109115053 20191210115053 62153 dante-cornet.sb.uclllabs.be.
+					T+6AvJMmNcXKx+/H9vLSTwuFT36g/5gMsYts
+					Kaxgw2omxesn8e5D5y1NJh993vjZK0Atnm0V
+					5CDJF1s18wKAuufl++4BN0/NC4hf0bacx4xH
+					fWGi6rfgmhn6n7+1F3TUgM7Cozub+lJ41WBf
+					cnFiCtjtG8wRBBjZ9xl2NjGICCOcTvTqsJ3K
+					rZL6M5tqCw8bvU8PKA5h3zIdRH30TdKu/wxz
+					ngoLdfwChQ24i3D2o/GHsfL36Vd6qOcYB5No
+					wh1Gk1/ofNz1x3Yb2jEGmL8fouYDWBn68+9o
+					DAyBWPocLxNwaWLxUGv7bbIw/HWLBopYPjOs
+					gLtwx/Zcwu7CY5nL7A== )
+lb.dante-cornet.sb.uclllabs.be.	300 IN A 193.191.177.88
+			300	RRSIG	A 7 5 300 (
+					20200109115053 20191210115053 62153 dante-cornet.sb.uclllabs.be.
+					R4WxoZOiwPPTyM93GSe9pg574sXtEK3BmNW7
+					8vr66H65CsZn3Y2n/Hb4xh9CqpWNXtrHcexN
+					VMIFCXKY7Ahya4+u31WnQddX3CBrAy2XYqLN
+					0EKCK2IwcD3uu+0ZqhbsHZmKCQjDkFsqu5r7
+					qPhnrniyU3BBNWTPbZjt7klO2FIvJNST8lav
+					Rjn/0BR5z6yWHtzpI8ETH8K3VxkFzfw7uq8i
+					IhyfvwnZV9N/jCODJRT46Uy7xOlx+y+YjZaw
+					kjYzy+GCiGDf5AI/bdMzc/GTYCLmt/D/H5Sw
+					9Xa8LvXyOedMlFQnsLcrhk9ec7Mjr9mZFPtJ
+					a7VpqJ0hsSXSIQrmmA== )
+mx.dante-cornet.sb.uclllabs.be.	300 IN A 193.191.177.140
+			300	RRSIG	A 7 5 300 (
+					20200109115053 20191210115053 62153 dante-cornet.sb.uclllabs.be.
+					ovoJLSa/IAT6+EvV+glILWrYmOOF1MBti8Jt
+					KmtUKepYjoDOg8B1PKsaUkRNpD/NzSovElK7
+					v93PXPOv7h6cOQmXilur2yWGJ16yIac5efbD
+					ouck9yo1aGsAEnh8XSWlXwIOxs1xyVaaaXqY
+					3VB415Ca0dubpgfi2OWX9kQUQrufObMtLgvU
+					lk0kbrPKuxoZauS2z4YqpRYfGXNfG9y/oC1b
+					Hxq7VqFVCP2285U7j+VfvURd9Y2CrXb6WPwu
+					S4iv4cpExRpk4ccdCc/sTiFY1fkqIE9PvPgV
+					TKDatfYreWdfFyZvMMzpPcIKoCoCwY24mltA
+					Xpd9uUP4l2BKB2UPwg== )
+			300	AAAA	2001:6a8:2880:a077::8c
+			300	RRSIG	AAAA 7 5 300 (
+					20200109115053 20191210115053 62153 dante-cornet.sb.uclllabs.be.
+					d0Do6+14clpPXu6OVi6jxfLXoFPxjFNyYcaU
+					Bac2KRRopv0YFNhzbIVd04/Jgbt8VrPz2j2W
+					vO6rhkXOKIh+I44MCrzYOkdwjAimEQaNK3Ii
+					coCSFPC/LeXzwI6Cm2z8VrGtyGK5YFLvSMK8
+					Pmlnbo88AsiaUSThsr2QlZSRtElE+/BnHK/6
+					073k5Iy0NbvE1DAlWwhIj1k+LgaFoSpJf6gd
+					8ukhN/w9xKsLpD6s972G0J1192zoCxUjvrgp
+					1odak2Lfm0o/ZC5O82Vsn+ldCsqvFV3hnyv2
+					ncxJg9HJrxCaNt3O4dQONG9C9AxEyUHcKviP
+					1VS6x/kvL4ygfS9NaQ== )
+ns.dante-cornet.sb.uclllabs.be.	300 IN A 193.191.177.140
+			300	RRSIG	A 7 5 300 (
+					20200109115053 20191210115053 62153 dante-cornet.sb.uclllabs.be.
+					C1mzRg+uTbPKosHJyR+KUzFONkEAHTL2aJQg
+					71WhMB0apNAuQAGKvOg2fcGh+c+zwSB4ZqVU
+					IDBEXLiXVGGWIWjVNDTRiNVhksucIk7O3OUw
+					giiYHCHmcOTTWAfJ0pcELZomJ7bHiR7Q+GvS
+					oUeG4sol0Yi/L0ntlTFREAEONpEOZUGl7brK
+					hcnu35TSkX19ovBhtvgpneQmTshdSLa5VIXy
+					zhhR6JaWz8Ds6+8kOCEfkviWh9NP2eJbXSDq
+					pkFcSBDDa6DFxPq/CVHPg3K9ZtEPsa1JNAjh
+					qDqh+0FIUEj66jq2ds0RFJv1Wc2SYkC0My4U
+					bmPUJPthsroAFyRS2w== )
+			300	AAAA	2001:6a8:2880:a077::8c
+			300	RRSIG	AAAA 7 5 300 (
+					20200109115053 20191210115053 62153 dante-cornet.sb.uclllabs.be.
+					AL+mIs0D2s5xb2ZBjZzX02vATU7dix9Uxneq
+					EUQVKQLt9I+2FGwwkTNpVwi4mCT1uTnjIshl
+					NfDRS26T2LGH+nWMhHfF7OvGLiLr0Zu1IjkS
+					eeIFWGw990VyEA0wJvKpeRJqc4KbM+GuY0Vd
+					xmjHW8uBmmzTMdlwb2BlG3SvsKJuqSuZYTIl
+					n5EVzK4abYUM4N82o04e+djMGYIuCDBWspoV
+					JFkEMfHmsQy8frBqa8CuNoJGkkbvfaUECvgn
+					OGRyNMqGMUU+KbTUJW5pfjoXeYO7zZXLj9se
+					o9J9YpfEyOEWI9vApoG+8ELE6LuUDukvAyr/
+					XStKoGF9d9tqx0lGDg== )
+secure.dante-cornet.sb.uclllabs.be. 300	IN A 193.191.177.140
+			300	RRSIG	A 7 5 300 (
+					20200109115053 20191210115053 62153 dante-cornet.sb.uclllabs.be.
+					wJD6wBDx/VeFwlVPqECFi/JekUYrp86idXff
+					B1iJK92sGpLHIToaX64KZ7KVrmxYICPeCi/h
+					64UDFaosR45aG3MoZmL1SS0s3oZXlLkkWhrO
+					bnxhuCPx7IuhcH7lvXZn4rm6KSik2q1OfgIH
+					ZzrlU5KZG4vJv3cmDLS3JjbwXeIvsqdbkoHk
+					NRLiqKrBOftZEyAFF0npMOIjMs6Oq8eCdMRl
+					QpEueCFFCG6rJmo6sdWpdkKNiZlv310Unau9
+					DiprFcmNPZwTIeKsgyAMGtNmbLdeQG2F0Qmn
+					Cdu8NKpHEDZIilwefBqyZ32EDUAtaC3WCoey
+					XMGvJkOchBkl4q6CEQ== )
+supersecure.dante-cornet.sb.uclllabs.be. 300 IN	A 193.191.177.140
+			300	RRSIG	A 7 5 300 (
+					20200109115053 20191210115053 62153 dante-cornet.sb.uclllabs.be.
+					rBM/QJgu7e776xCqy/lcsTuNd5Gt9MpE4Qqg
+					n1XkgZ66d3UG40o7ONMjLYApAq3PAjtymCPO
+					P29ukVc+b4jwNTGHrH7WiXtujXxNlfJcyLop
+					D/M/ew9NXDiRUh6BMEU9KkUqtbXB9cjW81HV
+					mLC/sbDsUCLBrNM6xvE/3Tnq3NKdp66xlhgg
+					nGcGsd9/ryR1XCx7x3f1GuQXaSnCumPDJqVj
+					vS2v4+yetVRMsAs/voPfT/ZWtRFawlAt2jVz
+					4aMDnEPn29ZtKYqn3peAd4j2+TXFm8aJd5sM
+					XziMOycZTw/o4F9c1hJGh4QMNlyZhMERCKkL
+					yQpmnJYv0/5VhqRkPg== )
+test.dante-cornet.sb.uclllabs.be. 300 IN A 193.191.177.254
+			300	RRSIG	A 7 5 300 (
+					20200109115053 20191210115053 62153 dante-cornet.sb.uclllabs.be.
+					v83t+wWn1ztRf8s6B5q3SRkbyPE0LVIrq6ME
+					qeSOVrk7/UayCo8fNOGJbVKY94vvaPqq5iNB
+					3MFMAIq4rv6wyvNOiXpEXBFTMpMsGs61pxv5
+					IE8/Jyo3t/vnqj5+u+o/1YJpledD1GatQBAX
+					3kQ6zyaOwAUJRhWNYHJDR0rgsXyyh0ZTW6hu
+					J4Mftos2eLILpVV06LYDI01IqQ06lA3twhtJ
+					+udztWUVmoKvEj9Ic0qcLvVaCftDiUYw0Qgu
+					xRy/92FNgkhsPj6qoEg5D+TPc3nRuGWd18Yk
+					KqDL9pgDWxCt+5anZIj3iJAtBltfWQocXezf
+					5ID6oT5lMKBwoneMfg== )
+www.dante-cornet.sb.uclllabs.be. 300 IN	A 193.191.177.140
+			300	RRSIG	A 7 5 300 (
+					20200109115053 20191210115053 62153 dante-cornet.sb.uclllabs.be.
+					LYG+77qFtzzTcghQF2F3gLUYn1ujiSqCV88T
+					CEssx1zlqk03dkwJcMVGbi3MJeO1PeLTq4SL
+					EIw+2c7PxqN2leKf9aJX6roJcEPoOg+iAIIr
+					3cLvKNtGoYYfDh/op/mwhMx6ytB+gYjLJ/hh
+					mEAw24ioMza9JKJKbeR8WTLwN11GGZVkERms
+					WO6TdnVqA0i4Mu6sJ/7+LQyQ6vitGyR6soMM
+					rX8i7BaeIsaXIJVdKddCqaxTBrzLysSLgpEh
+					oQbQX1MuY/KpzvSHLgmFH8izTh2z61db3Xzr
+					NG5BC0amgLMTNixjwEn9ilsc0F6UotABlOwY
+					R1G/SjnioNJxGLli7g== )
+			300	AAAA	2001:6a8:2880:a077::8c
+			300	RRSIG	AAAA 7 5 300 (
+					20200109115053 20191210115053 62153 dante-cornet.sb.uclllabs.be.
+					p/T3fDyAzce2GyumHCurTSmmuJTjh4Q+PuSr
+					doch+7peQrMpLmppQN97GVwm47U/4ED7cn8s
+					iSjHl3+9jRW1Ckx9tzNMuBekgQDkvk8RrCM1
+					TBAHO1iRf8HY9NDa6U0KZ4CXA1euw1cQyR9O
+					cSdtS4O0qZFVzYuCbXFZmopza5JUOF4rIhfu
+					TDkqe6DkQhD0W41nrzGRoGhIZgv+dplMWE6z
+					GQ5bvP0Ka7/H4KP/mHyHocO8/yHr7MogyEFw
+					Azc6Wsj2coOnxp7Wc42r9NYPok8bMfwFJl8h
+					ayBCTz8IVv7dK24KcFNgLuv8J1z9kEMDwOwg
+					3Zcx3mTx/ol3yt3N4w== )
+www1.dante-cornet.sb.uclllabs.be. 300 IN A 193.191.177.140
+			300	RRSIG	A 7 5 300 (
+					20200109115053 20191210115053 62153 dante-cornet.sb.uclllabs.be.
+					L/s6rvBazFCTUdHDtboP+n7Fd1dtk3xx0yU8
+					zEM6n4Vd64ztAryVGQvnazo/3Yh53sWKNwnB
+					MRV5vl7XLKBIAV5HnWVV9yMMRCNt3UGLDjbW
+					YUrBz9gH1Q0meGPey1rUJERl+TeUrpIbP7a2
+					nWJNxfWoiHdbaE7EOqFmOYfekQ5kHN0GeLGN
+					wECKTHQzEtC5iytuZhxaiLwM65IskFwpnsSY
+					w0VIl4nG4RP8APeVJLoHDdTMTcTPqNwCPByS
+					DKiaxomySKTqKWI/Yo1fPU0z/0+2azj97cbn
+					vZkM7RrCeialOjxH8Vxj4OxBWpq2AMSQwN5D
+					AWeObUr7EQ61tFm1xA== )
+www2.dante-cornet.sb.uclllabs.be. 300 IN A 193.191.177.140
+			300	RRSIG	A 7 5 300 (
+					20200109115053 20191210115053 62153 dante-cornet.sb.uclllabs.be.
+					GCNw0OR4RaBRJnZanjNQZ4uwiwin7CBWn1ZK
+					Zv1c89G8HMePmN7UiCcicDafiDSfgquAaYgg
+					uTbcMGChqQrcpNphsbtj6kncERijLR25ARO9
+					WczM5bzrzar+6HrtQSIyi571XmG9JiahBnFs
+					9ZNWQzRHWCziBhHQageNVwa0DJLY8n3kwtmq
+					31Y/2aCxoECovOG4y1Tu0/N9GkWKqPX9NYCd
+					Bo1POJr7gtOwweqRYzPltQumhCO9csk0MUUv
+					+Z36XV24lZZqAR150KcwAvuxUDuzKfMrADEs
+					EJJy+hKbn6FittN46GRDUgI4+sVtQhrQDRy5
+					HqBfTxFx6i9GN6rZ8Q== )
+3QLHM6CQIM54Q3NJD2EHERS9H27O90BM.dante-cornet.sb.uclllabs.be. 300 IN NSEC3 1 1 10 04FCF758345A76E6 (
+					A2R64DFR4R916989L6EJ36M6QUNCDILG
+					A NS SOA MX AAAA RRSIG DNSKEY NSEC3PARAM
+					CAA )
+			300	RRSIG	NSEC3 7 5 300 (
+					20200109115053 20191210115053 62153 dante-cornet.sb.uclllabs.be.
+					EGR6x9XUrVgTO/crCUBwDA6Veyn60JGV2YeI
+					x9m4IBJeiA7TgIgfAf8k3hTAmOdudu1WoXdK
+					F0ZObCMUp/kOkscUqK0/1UDGw/YZPzMbprtE
+					lHSV82ujLCHECRhu9BLTl1tfahRKBFXhmpZt
+					a4hM3WZ0X4N0gCnweHxoPqtW3JHzl/jMrUkb
+					uvgYDN0PJ6dMe5ttASGx4EAB9+Nba2K38ZW0
+					yZ4knLemPipfpCVH3Srps8o7evebd419a0SR
+					hVHVuSr6k8BuS6w6TP9y6khQqOjhKfPBGY05
+					KQ0qrrMPXS4viaYKOIj6eJgPZ2wooi9AgEc+
+					uR3jkzkufXcfTqTLSg== )
+A2R64DFR4R916989L6EJ36M6QUNCDILG.dante-cornet.sb.uclllabs.be. 300 IN NSEC3 1 1 10 04FCF758345A76E6 (
+					AD3NJPFGUG6DSR122MDCHP3NVH4GGLRU
+					A RRSIG )
+			300	RRSIG	NSEC3 7 5 300 (
+					20200109115053 20191210115053 62153 dante-cornet.sb.uclllabs.be.
+					nfxzy/92fEwFj4j/Yyigk2sNMZ72yCbgKf+I
+					li6rtSNOY5+zDdjd4ex5wKMW+lHbVZCwFwnh
+					vV+x9aeh6ROBO/8m3GRbh+YmIlqNlfGgc3+6
+					58YuZ/8pgpzHt32Hhdc6cJmeSYtCHAyrNBi2
+					S7s9D9Or9Q5BcweMkj9PxBQE4SbDnDmP2x0E
+					96iv+orjmk0UBmZueJVOwARYZ7ftTsZ2VIPR
+					qZkZoCLiHy4JLjpBXx9Uk028Me3Y+7M94qlA
+					gZksBaUXWQYGEpFe5w7BHw2y0vch/ZA3tJR7
+					ja3WCK3Y/AOJ/dfkoCPAS5gopZwqys5X18mh
+					JfEYmH80F2/MWW1mFw== )
+CRKU6JNIG8417GUNTORM9KTR2K9LFUAT.dante-cornet.sb.uclllabs.be. 300 IN NSEC3 1 1 10 04FCF758345A76E6 (
+					GJ3PT4CVK8BMEFEQ68Q7N0J89KQMUKPT
+					A AAAA RRSIG )
+			300	RRSIG	NSEC3 7 5 300 (
+					20200109115053 20191210115053 62153 dante-cornet.sb.uclllabs.be.
+					t62aD+pSAi+SGozZv1MIW7rFRd6wtRDayKGY
+					jv4BiPBHM668wo4KI1SN+PGon2JzoWGWID+z
+					np9HhnzRNzofk1xTQkJTDpsjnQqszi9ft6pf
+					i+e3QJD500qSaLJ5FSI/xWZPl/a5j2qjXcxQ
+					6LTjrQzGkhY/ZO0ajGg3NoUURfjG9GrnAses
+					MLTRQO56RP75Nxkc931x0gNNXkIA4DFXLswe
+					Apj/MctMSDrJeekS2/qHZzdTDA6cjns++cJ5
+					u2PFylcZK2xgRHfBTACIXOnbXA8cjkSIzrIb
+					zpiuEULCn/1dUdVHgOP0btPE+diQdA69EEEC
+					8O8yhalUDdCwuJ3erQ== )
+GJ3PT4CVK8BMEFEQ68Q7N0J89KQMUKPT.dante-cornet.sb.uclllabs.be. 300 IN NSEC3 1 1 10 04FCF758345A76E6 (
+					KC20AQSVKNOJJMDVOP405K2Q06A11SJL
+					A RRSIG )
+			300	RRSIG	NSEC3 7 5 300 (
+					20200109115053 20191210115053 62153 dante-cornet.sb.uclllabs.be.
+					UXi3RNQgSbWGnOX8xC18YJ/km8UN8kCiSlmI
+					4lx18A+xMrJ3xP1RBJ/nkXYxwfpNkudxt8+G
+					FVgOXyegDoCaMBoJ47ShZF3jmFHndsy4vM9c
+					a6ymyBTFNaxEWnsRwF5N+uNIjpfDy6/j5sBm
+					4b/KC9uqZ3H5aJT+ZT/HA/HnplmkIWymYAR4
+					UJXsJfe4kxwV8XAeNtvBcCvz7zedglFLrjsh
+					UYweolcqFGV78WCFS9Tq9Z9DTWRh5+KHQ8p7
+					1hKaeYX4qMsp+pIS/lBS5t1fTd5NWKOy1jr/
+					rRaaRGUtj/IRiTit5GDwrrYIwAxlQehDh9Kn
+					yZQs4ytGHBD45GbtPQ== )
+KC20AQSVKNOJJMDVOP405K2Q06A11SJL.dante-cornet.sb.uclllabs.be. 300 IN NSEC3 1 1 10 04FCF758345A76E6 (
+					NLF1V15B8IHN94S4644K20BUMTPTUOMF
+					A RRSIG )
+			300	RRSIG	NSEC3 7 5 300 (
+					20200109115053 20191210115053 62153 dante-cornet.sb.uclllabs.be.
+					zGL/ib0h6QYTiqPQGlsXMPKlbool4bvjgyqJ
+					um+cbAXdSAHFbdH+ZpEWcfgrQsLbU5k6spcM
+					FeuRSDozdWdroSYlyzt4MPVQfp/SQMc12ML7
+					4d1yKAIwhU60u7YlhVa1ff9p3Mg6fg/j5tBL
+					0m7N+v/L0KN8a0aqqGMbtDG9inZGq4aiNHg6
+					5Ppl5xsSTpMSUW/FK81UwOWIC7z/2sflCn8B
+					IZ7Y8zN/L4MCj+MNeINxWUk71/RMRKmJ23NY
+					Edwv0wdKra/xH0lkhHnkolmLjzcX7t1Uk6WN
+					/tGHdEXz1/QddPjTeJySKozgpVkCdLc7u+jl
+					YjEa6PDJLsUPuQdmiA== )
+NLF1V15B8IHN94S4644K20BUMTPTUOMF.dante-cornet.sb.uclllabs.be. 300 IN NSEC3 1 1 10 04FCF758345A76E6 (
+					O8R09S135C7BTDEIIVAMIJHCT45NVRJ5
+					A RRSIG )
+			300	RRSIG	NSEC3 7 5 300 (
+					20200109115053 20191210115053 62153 dante-cornet.sb.uclllabs.be.
+					LvcaQVYJcL2VI+TFPTtDgVAsR+T5FlsssAtm
+					Fn17qE7ygGG/NYNS4S9aCOEYRP/HOG3WUSwN
+					4YIGhKy8WuRvWj4d9qaPi3oGFePsLhdeNqjW
+					F7bVYZZRC6RYdFAdGuLf7Il4mmjCq66aY8UB
+					IGZFrjA1A8lNyZjffhwekvVnWVstEeDMtBPh
+					vItH+Vwgfykyc8Z7N+xLomh3XvKbkD67QY+x
+					2Ld+X8uGOQPN+sO3UWsSVoK7bB9Ywi+ckIMl
+					h05f9ACVMfvb8q091lPTym/opGFtJvSzdoKj
+					ClhwsQU73XTlW2kDnGjBVoryGRznK4QzX9iX
+					yxX41qkNLrsicBzlSA== )
+O8R09S135C7BTDEIIVAMIJHCT45NVRJ5.dante-cornet.sb.uclllabs.be. 300 IN NSEC3 1 1 10 04FCF758345A76E6 (
+					T8T7N263O9NEMHB1SKL4RRD2L8IE4TE3
+					A RRSIG )
+			300	RRSIG	NSEC3 7 5 300 (
+					20200109115053 20191210115053 62153 dante-cornet.sb.uclllabs.be.
+					ItwacrrakQ4KMSzyR1cCgknlOXlawnuznbIP
+					mWN6tb9A2KjK/jPwKvkBC5Y379OpgqJL3hBb
+					2DOMHiVDvQ9MAGAcLUldB2BR/LM7fJ+t0erq
+					uvLIoxwMjwZXIOTgRNdTndEzGBU3iJptDPIM
+					AmT6jzgLT7wplGgan1z+3OZHNfYlWAYtrIIH
+					AAU1qGnXTjxRFRnPF1zNihi2dwFI8yhUNqPE
+					jUNf6s12ons0J5iJocoE5jCAA4Iu/iTFjQT0
+					OpfW9CMMHIXya9EGelSavAfEwgLDK6EEjZxZ
+					bwWW3cMow+l5EvuMPGw9+EDq0fETKqQ3CQZT
+					TFoD05by1qFDoQQBTQ== )
+T8T7N263O9NEMHB1SKL4RRD2L8IE4TE3.dante-cornet.sb.uclllabs.be. 300 IN NSEC3 1 1 10 04FCF758345A76E6 (
+					VQLIG95A2SQTCBERD2UH3FDMAKHJG7B5
+					A AAAA RRSIG )
+			300	RRSIG	NSEC3 7 5 300 (
+					20200109115053 20191210115053 62153 dante-cornet.sb.uclllabs.be.
+					km9MYGTrvC7V+hqST/3flf77iCbt2pSzTVR5
+					/CFuad+oy8TsWTYePrRG8TXeygY//+WLQfCs
+					TWAjhN/mK6Ao3QKeHsdz9A6hpMfdHIzqOpp2
+					UK0ojP4pKVAUJDYhF0EMaqpDPtYLB40P3VMG
+					jII0B9WPUAm3CXR+1mv8i6fp6gTqFlsGaUXs
+					UVXcoJnu7DEqXJpAp9x1xdYro0mRbMksqBkY
+					Ng7D90xxjlX1EMJngewxbWbxL7QFwx96oSmt
+					IM0s4u5DX1forbVK+Ov8U1GSQFuCTaIZaZ+B
+					dZjELU6PJj6dnsdpXo7lpCJSyJAlb2x88Mkz
+					Yn4rWc7O53xj67vaQA== )
+VQLIG95A2SQTCBERD2UH3FDMAKHJG7B5.dante-cornet.sb.uclllabs.be. 300 IN NSEC3 1 1 10 04FCF758345A76E6 (
+					VQUQ1LUVBA4GAQKOVMUQMB0IC45E4G6K
+					A RRSIG )
+			300	RRSIG	NSEC3 7 5 300 (
+					20200109115053 20191210115053 62153 dante-cornet.sb.uclllabs.be.
+					ZIOIEDK6JsiHcKPkJEAw/yfkPJbAfHxkvMr7
+					F9aGtfn2LPAt/iDNfqKGkxE/C/2Ub0r6MkxV
+					o7nTE/cQGjNan0RunuZukGC3+xKZ7LoBhKmM
+					/aQsDWPJP8gdlsJAZY/kTvXVAn8PM9bjiPXU
+					KU9tzMDWs6ierCg0oa1j74mP7PQFdGBA+0sG
+					Jmv1xjrmJwXC2CCoYcgnceXxhgi1Oa5pRiTv
+					ZYhkF/LvL/pEhgxS3k1+eXJNES+Bjcn78eQJ
+					MBhlciIPxkv/S65C62QBslHp1iQ02GXlgugS
+					fOKIzzqtSrWAFTaoil5V0e33Yt7JocR45ntJ
+					DDvb+0fMSvlPjO0GBA== )
+VQUQ1LUVBA4GAQKOVMUQMB0IC45E4G6K.dante-cornet.sb.uclllabs.be. 300 IN NSEC3 1 1 10 04FCF758345A76E6 (
+					3QLHM6CQIM54Q3NJD2EHERS9H27O90BM
+					A AAAA RRSIG )
+			300	RRSIG	NSEC3 7 5 300 (
+					20200109115053 20191210115053 62153 dante-cornet.sb.uclllabs.be.
+					G+sbhbyuu/bJ8Jcx75CRfYuHsY6ZLAfAKiuG
+					lyvFl6YbrsxvkqZzLyb1G1gM65RiNwrOQh5L
+					ttJJFJJxu/x2WeuP5+jVDu2l7FVfqBi/X8oZ
+					f6w+HrJQlK3+v+RieF4ivGIyYSMA/iHCDSAy
+					uF6VFcpYuZeD9NHsgo07z1sJhCROW9+o9IwT
+					Q2vkXgdnk9p9CXFMe0698FESA2UvdZ3SX3Pv
+					rGO4pa6Ud4L7yhRdBsvxFmGQcSCkDlPAO3HV
+					7vGrO3FYWnIBhhUKVlagEVyhNWjZ58CQMqWB
+					SUOqvgcCVY3ZkWuEN/RqVeUjWgyPp0OzhSSN
+					bp9CbM0UGaRSEc9TPw== )
+AD3NJPFGUG6DSR122MDCHP3NVH4GGLRU.dante-cornet.sb.uclllabs.be. 300 IN NSEC3 1 1 10 04FCF758345A76E6 (
+					CRKU6JNIG8417GUNTORM9KTR2K9LFUAT
+					A RRSIG )
+			300	RRSIG	NSEC3 7 5 300 (
+					20200109115053 20191210115053 62153 dante-cornet.sb.uclllabs.be.
+					bamCMp8GibZj4YBWgCSqdP1iAqvlhGHVIts6
+					IwMZOQx+ArV2o5GZjxjpLF4XY6GAWNKSWKzy
+					mGWMk74mKBLE3nY+kqThIccQzzN6cV2bN35S
+					sIApor0TgZmy7MpLu8AcLpbDCRTy4/hDZ3TJ
+					otSGcfujX1sFKZdhC/p2mPuXio9HEfPi//Jt
+					DPqyF+O2lk7ucfIuvmq/SorQ9lDxMCJJGGkh
+					KtS3DBgF7r/NJA5MqO4kfXDdS6UxvBjdn5dQ
+					A2xIz/IL4ZrD28pZ7knjUqH1pH9ScDOkl9W7
+					4UcwktbUZkv06DkYI1V6cr1ZWZeaQYwiTyeH
+					iiBb0qBMnIEt583ovg== )
